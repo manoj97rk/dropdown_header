@@ -47,6 +47,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/bootstrap1.css">
+	<link rel="stylesheet" href="css/meshbr.76b98957f.min.css">
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -54,7 +56,27 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 <style>
-
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+#SubAddress .Subscription .inputRow {
+    width: 300px;
+    height: auto;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.AllTransition {
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
 </style>
 
 
@@ -64,177 +86,174 @@
 	<div class="colorlib-loader"></div>
 
 	<div id="page">
-		<header id="header" class="fixed-top">
-    <div class="container">
-
-      <div class="logo float-left">
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
-        <a href="index.html" class="scrollto"><img src="images/logo.png" alt="" class="img-fluid"></a>
-      </div>
-
-      <nav class="main-nav float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#">About Us</a></li>
-		   <li class="drop-down"><a href="#">1 x 1 online Tutoring</a>
-            <ul>
-              <li class="drop-down"><a href="courses.html">Edexcel</a>
-			   <ul>
-						<li><a href="courses.html">Class 10</a></li>
-						<li><a href="courses.html">Class 11</a></li>
-						<li><a href="courses.html">Class 12</a></li>
-					</ul>
-			  </li>
-              <li class="drop-down"><a href="courses.html">IGCSE</a>
-                <ul>
-                  <li class="drop-down"><a href="courses.html">Core</a>
-				  <ul>
-						<li><a href="courses.html">Class 10</a></li>
-						<li><a href="courses.html">Class 11</a></li>
-						<li><a href="courses.html">Class 12</a></li>
-						
-					</ul>
-				  </li>
-                  <li class="drop-down"><a href="courses.html">Extended</a>
-				   <ul>
-						<li><a href="courses.html">Class 10</a></li>
-						<li><a href="courses.html">Class 11</a></li>
-						<li><a href="courses.html">Class 12</a></li>
-					</ul>
-				  </li>
-                  
-                </ul>
-              </li>
-              
-            </ul>
-          </li>
-		   <li class="drop-down"><a href="">Study course</a>
-            <ul>
-              <li><a href="#">Physics</a>
-			  
-			  
-			  </li>
-              <li><a href="#">Chemistry</a>
-               
-              </li>
-              <li><a href="#">Biology</a>
-			 
-			  </li>
-              <li><a href="#">Maths</a>
-			 
-			  
-			  </li>
-             
-            </ul>
-          </li>
-		  
-		   <li class="drop-down"><a href="">Grade</a>
-            <ul>
-              <li class="drop-down"><a href="courses.html">Class 10</a>
-			   <ul>
-                  <li><a href="#">Physics</a></li>
-                  <li><a href="#">Chemistry</a></li>
-                  <li><a href="#">Biology</a></li>
-                  <li><a href="#">Maths</a></li>
-                </ul>
-			  </li>
-              <li class="drop-down"><a href="courses.html">Class 11</a>
-                <ul>
-                  <li><a href="#">Physics</a></li>
-                  <li><a href="#">Chemistry</a></li>
-                  <li><a href="#">Biology</a></li>
-                  <li><a href="#">Maths</a></li>
-                </ul>
-              </li>
-              <li class="drop-down"><a href="courses.html">Class 12</a>
-			  <ul>
-                  <li><a href="#">Physics</a></li>
-                  <li><a href="#">Chemistry</a></li>
-                  <li><a href="#">Biology</a></li>
-                  <li><a href="#">Maths</a></li>
-                </ul>
-			</li>
-              
-            </ul>
-          </li>
-          
-         
-		 
-          <li class="drop-down"><a href="">NRI Section</a>
-            <ul>
-              <li class="drop-down"><a href="courses.html">U A E</a>
-			   <ul>
-                  <li><a href="courses.html">IGCSE</a></li>
-                  <li><a href="courses.html">Edexcel</a></li>
-                  
-                </ul>
-			  
-			  </li>
-              <li class="drop-down"><a href="courses.html">Malaysia</a>
-                <ul>
-                  <li><a href="courses.html">IGCSE</a></li>
-                  <li><a href="courses.html">Edexcel</a></li>
-                  
-                </ul>
-              </li>
-              <li class="drop-down"><a href="#">Singapore</a>
-			  <ul>
-                  <li><a href="#">IGCSE</a></li>
-                  <li><a href="#">Edexcel</a></li>
-                  
-                </ul>
-				</li>
-              <li class="drop-down"><a href="#">India</a>
-			  <ul>
-                  <li><a href="#">IGCSE</a></li>
-                  <li><a href="#">Edexcel</a></li>
-               
-                </ul>
-			  </li>
-              <li class="drop-down"><a href="#">OMAN</a>
-			  <ul>
-                  <li><a href="#">IGCSE</a></li>
-                  <li><a href="#">Edexcel</a></li>
-                  
-                </ul>
-			  
-			  </li>
-			  <li class="drop-down"><a href="#">Saudi</a>
-			  <ul>
-                  <li><a href="#">IGCSE</a></li>
-                  <li><a href="#">Edexcel</a></li>
-                  
-                </ul>
-			  
-			  </li>
-            </ul>
-          </li>
-		  <li class="drop-down"><a href="">Resources</a>
-            <ul>
-              <li><a href="#">Notes</a>
-			  
-			  
-			  </li>
-              <li><a href="#">Past Papers</a>
-               
-              </li>
-              <li><a href="#">Solutions</a>
-			 
-			  </li>
-              <li><a href="#">Topic question & answers</a>
-			 
-			  
-			  </li>
-             
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav><!-- .main-nav -->
-      
-    </div>
-  </header><!-- #header -->
+		<nav role="navigation" class="main-nav w-nav-menu">
+		<div class="nav-flex">
+			<div class="dd-wrapper">
+				<div class="dd-toggle w-hidden-main">
+					<div class="dd-title-div">
+						<h6 class="dd-title">Education</h6>
+					</div>
+					<div class="dd-toggle-ul" data-ix="n-nav-underline"></div>
+				</div>
+				<a href="index.html" class="dd-toggle w-hidden-medium w-hidden-small w-hidden-tiny w-inline-block w--current">
+					<img src="https://uploads-ssl.webflow.com/56a794522016a84e6065c4f9/5a5fa36770e8a90001cdbffb_MESH — Orange Juice.svg" alt="" class="brand"/>
+				</a>
+				<div data-w-id="9e643808-0b49-57aa-dea6-fae70446005d" class="dd-menu">
+					<a href="news.html" class="nav-link w-nav-link">News</a>
+					<a href="careers.html" class="nav-link w-nav-link">Careers</a>
+					<a href="yeti-camp.html" class="nav-link yeti-camp-hide w-nav-link">Internship</a>
+					<a href="contact.html" class="nav-link w-nav-link">Contact</a>
+				</div>
+			</div>
+			<div data-w-id="3fb4e396-d3e7-1f90-2f95-1dbf6f484261" class="dd-wrapper">
+				<div class="dd-toggle">
+					<div class="dd-title-div">
+						<h6 class="dd-title">About</h6>
+					</div>
+					<div class="dd-toggle-ul" data-ix="n-nav-underline"></div>
+				</div>
+				<div data-w-id="9affc382-1dc5-739a-54d7-d3b7509d68f9" class="dd-menu">
+					<a href="about" class="nav-link w-nav-link">About</a>
+					<a href="team" class="nav-link w-nav-link">Our Team</a>
+					<a href="blog" class="nav-link w-nav-link">Blog</a>
+				</div>
+			</div>
+			<div data-w-id="4778bcf7-6e82-5682-ebd4-64fc0ed17a08" class="dd-wrapper">
+				<div class="dd-toggle">
+					<div class="dd-title-div">
+						<h6 class="dd-title">Work</h6>
+					</div>
+					<div class="dd-toggle-ul" data-ix="n-nav-underline"></div>
+				</div>
+				<div data-w-id="51139c91-aabd-4e2a-2a8a-d23f4d6eef1b" class="dd-menu">
+					<a href="brands" class="nav-link w-nav-link">Case Studies</a>
+					<a href="portfolio.html" class="nav-link w-nav-link">Brand Portfolio</a>
+					<a href="websites.html" class="nav-link w-nav-link">Website Portfolio</a>
+					<a href="probono.html" class="nav-link w-nav-link">Pro-Bono Work</a>
+				</div>
+			</div>
+			<div data-w-id="87794d8a-919f-d239-a426-e11819b57953" class="dd-wrapper">
+				<a href="services.html" class="dd-toggle w-inline-block">
+					<div class="dd-title-div">
+						<h6 class="dd-title">Services</h6>
+					</div>
+					<div data-w-id="679ebd3e-3777-4b17-1f47-a294dd11af4b" class="dd-toggle-ul" data-ix="n-nav-underline"></div>
+				</a>
+				<div data-w-id="edd85339-db66-6669-5aeb-7c5f201022f3" class="dd-menu w-dyn-list">
+					<div class="w-dyn-items w-row">
+						<div class="p0 w-dyn-item w-col w-col-6">
+							<a href="services/advertising.html" class="nav-link w-inline-block">
+								<div style="background-color:#d62c2c" class="pixel"></div>
+								<div>Advertising</div>
+							</a>
+						</div>
+						<div class="p0 w-dyn-item w-col w-col-6">
+							<a href="services/marketing.html" class="nav-link w-inline-block">
+								<div style="background-color:#16a8f0" class="pixel"></div>
+								<div>Marketing</div>
+							</a>
+						</div>
+						<div class="p0 w-dyn-item w-col w-col-6">
+							<a href="services/strategy.html" class="nav-link w-inline-block">
+								<div style="background-color:#e99003" class="pixel"></div>
+								<div>Strategy</div>
+							</a>
+						</div>
+						<div class="p0 w-dyn-item w-col w-col-6">
+							<a href="services/design.html" class="nav-link w-inline-block">
+								<div style="background-color:#1068f5" class="pixel"></div>
+								<div>Design</div>
+							</a>
+						</div>
+						<div class="p0 w-dyn-item w-col w-col-6">
+							<a href="services/branding.html" class="nav-link w-inline-block">
+								<div style="background-color:#ffba00" class="pixel"></div>
+								<div>Branding</div>
+							</a>
+						</div>
+						<div class="p0 w-dyn-item w-col w-col-6">
+							<a href="services/digital.html" class="nav-link w-inline-block">
+								<div style="background-color:#a031ff" class="pixel"></div>
+								<div>Digital</div>
+							</a>
+						</div>
+						<div class="p0 w-dyn-item w-col w-col-6">
+							<a href="services/technology.html" class="nav-link w-inline-block">
+								<div style="background-color:#a5d908" class="pixel"></div>
+								<div>Technology</div>
+							</a>
+						</div>
+						<div class="p0 w-dyn-item w-col w-col-6">
+							<a href="services/media.html" class="nav-link w-inline-block">
+								<div style="background-color:#ff9ff7" class="pixel"></div>
+								<div>Media</div>
+							</a>
+						</div>
+						<div class="p0 w-dyn-item w-col w-col-6">
+							<a href="services/social-media.html" class="nav-link w-inline-block">
+								<div style="background-color:#00d1ad" class="pixel"></div>
+								<div>Social Media</div>
+							</a>
+						</div>
+						<div class="p0 w-dyn-item w-col w-col-6">
+							<a href="services/pr.html" class="nav-link w-inline-block">
+								<div style="background-color:#eb11e3" class="pixel"></div>
+								<div>Public Relations</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sec-nav">
+				<div data-w-id="8f7fff7f-a0fc-2189-18e3-5024afbdea21" class="dd-wrapper sec">
+					<a href="contact.html" class="dd-toggle w-inline-block">
+						<div class="dd-title-div">
+							<h6 class="dd-title">Contact</h6>
+						</div>
+						<div class="dd-toggle-ul" data-ix="n-nav-underline"></div>
+					</a>
+					<div data-w-id="7909c359-531d-9bbc-7b1b-fe9526d5b516" class="dd-menu">
+						<div class="w-dyn-list">
+							<div class="w-dyn-items">
+								<div class="w-dyn-item">
+									<a href="office/baton-rouge.html" class="nav-link sec w-inline-block">
+										<div>Baton Rouge</div>
+										<div class="address-comma">,</div>
+										<div>LA</div>
+										<div class="location-icon">k</div>
+									</a>
+								</div>
+								<div class="w-dyn-item">
+									<a href="office/atlanta.html" class="nav-link sec w-inline-block">
+										<div>Atlanta</div>
+										<div class="address-comma">,</div>
+										<div>GA</div>
+										<div class="location-icon">k</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="social-wrapper nav">
+							<a href="https://www.facebook.com/MESHbr" target="_blank" class="social-link w-inline-block">
+								<div>4</div>
+							</a>
+							<a href="https://www.linkedin.com/company/mesh-integrated-marketing-&amp;-advertising/" target="_blank" class="social-link w-inline-block">
+								<div>5</div>
+							</a>
+							<a href="https://www.instagram.com/meshbr/" target="_blank" class="social-link w-inline-block">
+								<div>6</div>
+							</a>
+							<a href="https://twitter.com/meshbr" target="_blank" class="social-link w-inline-block">
+								<div>7</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+		
+		<!-- #header -->
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
@@ -814,74 +833,73 @@
 				</div>
 			</div>
 		</div>
+		
+    </div>
 		<footer id="colorlib-footer">
-			<div class="container">
-				<div class="row row-pb-md">
-					<div class="col-md-3 colorlib-widget">
-						<h4>About Eskwela</h4>
-						<p>Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-						<p>
-							<ul class="colorlib-social-icons">
-								<li><a href="#"><i class="icon-twitter"></i></a></li>
-								<li><a href="#"><i class="icon-facebook"></i></a></li>
-								<li><a href="#"><i class="icon-linkedin"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							</ul>
-						</p>
-					</div>
-					<div class="col-md-3 colorlib-widget">
-						<h4>Quick Links</h4>
-						<p>
-							<ul class="colorlib-footer-links">
-								<li><a href="#"><i class="icon-check"></i> About Us</a></li>
-								<li><a href="#"><i class="icon-check"></i> Testimonials</a></li>
-								<li><a href="#"><i class="icon-check"></i> Courses</a></li>
-								<li><a href="#"><i class="icon-check"></i> Event</a></li>
-								<li><a href="#"><i class="icon-check"></i> News</a></li>
-								<li><a href="#"><i class="icon-check"></i> Contact</a></li>
-							</ul>
-						</p>
-					</div>
+		 <div class="container">
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs" style="padding-bottom: 25px;">
+                             <div class="row">
+                                <div class="col-lg-2 col-md-2 col-sm-2">
+                                    <a href="http://www.indianmodelsclub.com/" target="_blank"><img src="images/indianmodelsclub.png" class="center-block img-responsive" alt=""></a>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-2">
+                                    <a href="http://hoardingindia.in/" target="_blank"><img src="images/hoardingsindia.png" class="center-block img-responsive" alt=""></a>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-2">
+                                    <a href="index.html" target="_blank"><img src="images/whiterosemodelingstudi.png" class="center-block img-responsive" alt=""></a>
+                                </div>
 
-					<div class="col-md-3 colorlib-widget">
-						<h4>Recent Post</h4>
-						<div class="f-blog">
-							<a href="blog.html" class="blog-img" style="background-image: url(images/blog-1.jpg);">
-							</a>
-							<div class="desc">
-								<h2><a href="blog.html">Science and Technology</a></h2>
-								<p class="admin"><span>18 April 2018</span></p>
-							</div>
-						</div>
-						<div class="f-blog">
-							<a href="blog.html" class="blog-img" style="background-image: url(images/blog-2.jpg);">
-							</a>
-							<div class="desc">
-								<h2><a href="blog.html">Chemistry in daily life</a></h2>
-								<p class="admin"><span>18 April 2018</span></p>
-							</div>
-						</div>
-						<div class="f-blog">
-							<a href="blog.html" class="blog-img" style="background-image: url(images/blog-3.jpg);">
-							</a>
-							<div class="desc">
-								<h2><a href="blog.html">Biology</a></h2>
-								<p class="admin"><span>18 April 2018</span></p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-3 colorlib-widget">
-						<h4>Contact Info</h4>
-						<ul class="colorlib-footer-links">
-							<li>10, 1st Cross Rd,<br>Pillanna Garden, Bengaluru.</li>
-							<li><a href="tel://1234567920"><i class="icon-phone"></i> +91 9538669632</a></li>
-							<li><a href="mailto:info@yoursite.com"><i class="icon-envelope"></i> sales@iugale.com</a></li>
-							<li><a href="http://luxehotel.com"><i class="icon-location4"></i>www.iuglae.com</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+                                <div class="col-lg-2 col-md-2 col-sm-2">
+                                    <a href="http://phgw.in/" target="_blank"><img src="images/phgw.png" class="center-block img-responsive" alt=""></a>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-2">
+                                    <a href="http://camerakart.in/" target="_blank"><img src="images/camerakart.png" class="center-block img-responsive" alt=""></a>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-2">
+                                    <a href="http://www.investmentatprofit.com/" target="_blank"><img src="images/invesment-profit.png" class="center-block img-responsive" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+				  <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <!--Address Starts -->
+                        <div class="row ">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                                <img src="images/fotterlogo.png" class="img-circle logoRose img-responsive center-block AllTransition"
+                                    alt="">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 Address">
+                                <p class="AllTransition">
+                                    386, 2nd Floor, Patparganj Industrial Area,<br>
+                                    Delhi - 110092
+                                    <br>
+                                    <a href="mailto:info@whiterosead.com">info@whiterosead.com</a>,<a href="mailto:whiterosead@gmail.com">
+                                        whiterosead@gmail.com </a>
+                                </p>
+                            </div>
+                        </div>
+                        <!--Address Ends -->
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                        <!--Subscription Starts -->
+                        <aside class="Subscription">
+                                <p class="SubscriptionHead"> Subscribe to our newsletter
+                                <p>
+                                <p class="SubscriptionSubHead">News and updates on what we're up to.</p>
+                                <div class="inputRow">
+                                     <input name="TextBox11" type="text" id="TextBox11" class="inputBox" />
+                                    <input type="submit" name="Btnsubmit" value="" id="Btnsubmit" class="Btn" />
+                                </div>
+                            </aside>
+                        <!--Subscription Ends -->
+                    </div>
+                </div>
+            </div>
+			
 			<div class="copy">
 				<div class="container">
 					<div class="row">
